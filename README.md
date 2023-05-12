@@ -1,5 +1,4 @@
 # assignment
-assignment
 
 I'll be using AWS services including AWS Lambda, Amazon S3, and Amazon SQS, as well as Infrastructure as Code (IaC) tool like AWS CloudFormation. I'll use Python for writing the Lambda function as it's widely used for such tasks.
 
@@ -208,19 +207,32 @@ Here is a simplified directory structure of our project:
 
 
 lambda_function/index.py: This is where the code for the AWS Lambda function is stored.
+
 lambda_function/requirements.txt: This file includes any Python dependencies our Lambda function might need.
+
 cloudformation/infrastructure.yaml: This is the CloudFormation template file that defines our AWS infrastructure.
+
 README.md: This is the documentation for our project.
+
 In the README.md, we should include the following sections:
 
 Introduction: Brief description of the project.
+
 Architecture: High-level overview of the architecture, including a diagram would be helpful.
+
 Setup: Detailed instructions on how to set up the project.
+
 Usage: Instructions on how to use the system, any important endpoints, and any user interfaces.
+
 Deployment: Detailed instructions on how to deploy the project.
+
 Testing: Any instructions on how to run tests, and any testing strategies used.
+
 Debugging: How to debug the project if necessary.
+
 Improvements: Any improvements that could be made to the system.
+
 Conclusion: Final thoughts and conclusions about the project.
+
 Finally, the serverless architecture leverages fully managed services, it will scale automatically to meet the needs of our application, we don't need to provision or manage servers, and we only pay for what we use, making it a cost-effective choice.
 
