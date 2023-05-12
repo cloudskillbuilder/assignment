@@ -196,7 +196,7 @@ Document our setup, services used, codebase, and the infrastructure setup. This 
 
 Here is a simplified directory structure of our project:
 
-
+```
 /my_project
 |-- /lambda_function
 |   |-- index.py
@@ -204,6 +204,8 @@ Here is a simplified directory structure of our project:
 |-- /cloudformation
 |   |-- infrastructure.yaml
 |-- README.md
+```
+
 
 lambda_function/index.py: This is where the code for the AWS Lambda function is stored.
 lambda_function/requirements.txt: This file includes any Python dependencies our Lambda function might need.
